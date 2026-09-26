@@ -13,7 +13,7 @@ This result first appeared in my PhD thesis, [*SLk-tilings and Laurent polynomia
 
 ### Statement and proof
 
-The main theorem is [`ringDesiredIdentity_of_elementaryLowering`](LowerIdealDeterminant/ShiftBridge.lean). Its hypothesis, [`IsElementaryLoweringClosed`](LowerIdealDeterminant/ShiftBridge.lean), encodes the lowering move. Its conclusion, [`RingDesiredIdentity`](LowerIdealDeterminant/RingMinors.lean), uses the matrix of minors [`selectedMinors`](LowerIdealDeterminant/RingMinors.lean). The supporting proofs are in [`LowerIdealDeterminant/`](LowerIdealDeterminant/) and the minimal compound-matrix files in [`CompoundDeterminant/`](CompoundDeterminant/). Lean uses zero-based `Fin n` indices in place of $\lbrace 1,\ldots,n\rbrace$.
+The main theorem is [`ringDesiredIdentity_of_elementaryLowering`](LowerIdealDeterminant/ShiftBridge.lean). Its hypothesis, [`IsElementaryLoweringClosed`](LowerIdealDeterminant/ShiftBridge.lean), encodes the lowering move. Its conclusion, [`RingDesiredIdentity`](LowerIdealDeterminant/RingMinors.lean), uses the matrix of minors [`selectedMinors`](LowerIdealDeterminant/RingMinors.lean). The supporting proofs are in [`LowerIdealDeterminant/`](LowerIdealDeterminant/) and the minimal compound-matrix files in [`CompoundDeterminant/`](CompoundDeterminant/).
 
 ### Check
 
